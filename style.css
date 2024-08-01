@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15 px;
+    line-height: 1.5em;
+
+}
+
+header{
+    background: #fadadd;
+    padding: 20px;
+
+}
+header img{
+    width: 270px;
+    margin: 0 auto;
+    display: block;
+}
+#main_menu{
+    margin-top: 20px;
+    text-align: center;
+    list-style: none;
+}
+#main_menu li{
+    display: inline-block;
+    margin: 0 6px;
+    
+}
+#main_menu a{
+    background: rgb(81, 165, 159);
+    color: white;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+section{
+    background: #cdeacd;
+    display: flex;
+    
+}
+div{
+    padding: 20px;
+    width: 60%;
+}
+div h1{
+    margin-bottom: 20px;
+}
+aside{
+    padding: 20px;
+    width: 40%;
+}
+aside ul{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+footer{
+    background: #cee2ef;
+    padding: 20px;
+    text-align: center;
+}
+footer p{
+    font-size: 12px;
+
+}
